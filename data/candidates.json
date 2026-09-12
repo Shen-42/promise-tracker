@@ -1,0 +1,12 @@
+[
+  { "name": "JD Vance", "current_office": "Vice President", "capacity_tier": 3, "capacity_weight": 0.5, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 24 },
+  { "name": "Alexandria Ocasio-Cortez", "current_office": "U.S. Representative (NY-14)", "capacity_tier": 5, "capacity_weight": 0.2, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 13 },
+  { "name": "Jon Ossoff", "current_office": "U.S. Senator (GA)", "capacity_tier": 4, "capacity_weight": 0.3, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 12 },
+  { "name": "Marco Rubio", "current_office": "Secretary of State", "capacity_tier": 2, "capacity_weight": 0.6, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 9 },
+  { "name": "Gavin Newsom", "current_office": "Governor of California", "capacity_tier": 1, "capacity_weight": 1.0, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 8 },
+  { "name": "Kamala Harris", "current_office": "None (former Vice President)", "capacity_tier": 6, "capacity_weight": 0.1, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 4 },
+  { "name": "Josh Shapiro", "current_office": "Governor of Pennsylvania", "capacity_tier": 1, "capacity_weight": 1.0, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 3.5 },
+  { "name": "Pete Buttigieg", "current_office": "None (former Secretary of Transportation)", "capacity_tier": 6, "capacity_weight": 0.1, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 3 },
+  { "name": "Donald Trump", "current_office": "President", "capacity_tier": 1, "capacity_weight": 1.0, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 2 },
+  { "name": "Ron DeSantis", "current_office": "Governor of Florida", "capacity_tier": 1, "capacity_weight": 1.0, "freeze_date": "2026-09-11", "polymarket_odds_at_freeze_pct": 2 }
+]

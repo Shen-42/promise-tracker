@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Candidate Registry Entry",
+  "type": "object",
+  "required": ["name", "current_office", "capacity_tier", "capacity_weight", "freeze_date"],
+  "properties": {
+    "name": { "type": "string" },
+    "current_office": { "type": "string" },
+    "capacity_tier": { "type": "integer", "minimum": 1, "maximum": 6 },
+    "capacity_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+    "freeze_date": { "type": "string", "format": "date" },
+    "polymarket_odds_at_freeze_pct": { "type": "number" }
+  }
+}

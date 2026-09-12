@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/drafts/*_rejected.json
+*.log
+.DS_Store
