@@ -1,8 +1,12 @@
 # Promise Tracker
 
+## Project Status
+
+Phase A complete (methodology, schema, and repo scaffolding). Phase B (data fetching) in progress. No candidate promise data has been validated or published yet - see METHODOLOGY.md for the full pipeline.
+
 Tracks how often the top 10 candidates by Polymarket odds for the 2028 U.S. presidential election (frozen September 11, 2026) follow through on the specific, publicly documented promises they've made in their current or most recent electoral campaign.
 
-Full rules for what counts as a promise, how statuses are assigned, and how confidence is reported are in METHODOLOGY.md — read that before the data.
+Full rules for what counts as a promise, how statuses are assigned, and how confidence is reported are in METHODOLOGY.md - read that before the data.
 
 ## Setup
 
