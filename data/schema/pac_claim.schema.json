@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PAC Claim Entry",
+  "type": "object",
+  "required": ["claim_text", "source_url", "date_stated", "verification_status"],
+  "properties": {
+    "claim_text": { "type": "string" },
+    "source_url": { "type": "string", "format": "uri" },
+    "date_stated": { "type": ["string", "null"] },
+    "verification_status": {
+      "enum": ["verified_clean", "exception_found", "not_yet_checked"]
+    },
+    "verification_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date_checked", "result", "note"],
+        "properties": {
+          "date_checked": { "type": "string", "format": "date" },
+          "result": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}
