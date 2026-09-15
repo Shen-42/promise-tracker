@@ -1,7 +1,7 @@
 # Methodology
 
-Last updated: 2026-09-12
-Version: 0.1
+Last updated: 2026-09-15
+Version: 0.2
 
 ## 1. Scope of candidates
 
@@ -65,7 +65,7 @@ These weights are a stated judgment call, not a statistically derived quantity.
 
 The same promise often appears with different wording across sources. Before these are counted as separate entries, they are checked for duplication using TF-IDF vectorization compared by cosine similarity. Pairs at or above a 0.5 similarity threshold are flagged as likely duplicates and reviewed by a human before merging.
 
-This threshold is adapted from Lee, Xiong, Seo and Lee (2023), see Section 13 References.
+This threshold is adapted from Lee, Xiong, Seo and Lee (2023), see Section 16 References.
 
 ## 9. Resolving rating disagreements
 
@@ -79,10 +79,21 @@ This project's promise inventory for a given candidate is not expected to match 
 
 Every status change is logged in the entry's status_history array. Prior status entries are never deleted, only appended to.
 
-## 12. Changelog
+## 12. Sourcing difficulty across candidates
+
+Not every candidate has a clean, scrapeable platform or issues page. Official government sites tend to describe past legislative record rather than forward commitments, and a campaign site's own navigation may not include a dedicated issues page at all. When this happens, promise sourcing relies more heavily on debate transcripts, interview quotes, and speeches, with news coverage used only as a lead to the original transcript or statement, per Section 4. A thin promise count for a given candidate may reflect this sourcing reality rather than an error in the pipeline.
+
+## 13. Corporate PAC claims (separate from promise tracking)
+
+Some candidates state an ongoing practice rather than a one-time promise - for example, a claim to refuse corporate PAC or lobbyist contributions. This is not rated with the Section 5 status vocabulary, since it is not a commitment that resolves once to kept or broken - it is a standing claim checked continuously against FEC filings.
+
+These claims are tracked separately in data/candidates/<name>_pac_claims.json, with fields: claim_text, source_url, date_stated, and a running verification_status (verified_clean, exception_found, or not_yet_checked) updated each time FEC data is checked. This file is distinct from the candidate's promise file and does not contribute to any kept/total promise percentage.
+
+## 14. Changelog
 
 - v0.1 (2026-09-12): Initial methodology. Candidate list frozen from Polymarket odds, September 11, 2026.
+- v0.2 (2026-09-15): Added Section 12 documenting sourcing difficulty encountered across official and campaign sites. Added Section 13 defining corporate PAC claims as a data type separate from promise tracking, with its own file and verification vocabulary rather than the Section 5 status vocabulary.
 
-## 13. References
+## 15. References
 
 - Lee, S., Xiong, A., Seo, H., and Lee, D. (2023). Fact-checking fact checkers: A data-driven approach. Harvard Kennedy School Misinformation Review, 4(5).
