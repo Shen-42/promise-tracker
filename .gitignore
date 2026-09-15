@@ -5,3 +5,4 @@ __pycache__/
 data/drafts/*_rejected.json
 *.log
 .DS_Store
+urls.txt

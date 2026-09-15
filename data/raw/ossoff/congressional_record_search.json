@@ -1,0 +1,69 @@
+{
+  "count": 3,
+  "offsetMark": "AoIIPwm8CD8MQ1JFQy0yMDIyLTAxLTA2LUNSRUMtMjAyMi0wMS0wNi1wdDEtUGdTNTUtOA==",
+  "results": [
+    {
+      "title": "TROUBLING RECORD OF KETANJI BROWN JACKSON",
+      "packageId": "CREC-2022-03-31",
+      "granuleId": "CREC-2022-03-31-pt1-PgH4013-2",
+      "lastModified": "2025-10-08T04:01:52Z",
+      "governmentAuthor": [
+        "Congress"
+      ],
+      "dateIssued": "2022-03-31",
+      "collectionCode": "CREC",
+      "dateIngested": "2022-07-11",
+      "download": {
+        "premisLink": "https://api.govinfo.gov/packages/CREC-2022-03-31/premis",
+        "txtLink": "https://api.govinfo.gov/packages/CREC-2022-03-31/granules/CREC-2022-03-31-pt1-PgH4013-2/htm",
+        "zipLink": "https://api.govinfo.gov/packages/CREC-2022-03-31/zip",
+        "modsLink": "https://api.govinfo.gov/packages/CREC-2022-03-31/granules/CREC-2022-03-31-pt1-PgH4013-2/mods",
+        "pdfLink": "https://api.govinfo.gov/packages/CREC-2022-03-31/granules/CREC-2022-03-31-pt1-PgH4013-2/pdf"
+      },
+      "relatedLink": null,
+      "resultLink": "https://api.govinfo.gov/packages/CREC-2022-03-31/granules/CREC-2022-03-31-pt1-PgH4013-2/summary"
+    },
+    {
+      "title": "BUSINESS BEFORE THE SENATE",
+      "packageId": "CREC-2021-05-10",
+      "granuleId": "CREC-2021-05-10-pt1-PgS2398-3",
+      "lastModified": "2025-10-08T16:23:26Z",
+      "governmentAuthor": [
+        "Congress"
+      ],
+      "dateIssued": "2021-05-10",
+      "collectionCode": "CREC",
+      "dateIngested": "2022-05-19",
+      "download": {
+        "premisLink": "https://api.govinfo.gov/packages/CREC-2021-05-10/premis",
+        "txtLink": "https://api.govinfo.gov/packages/CREC-2021-05-10/granules/CREC-2021-05-10-pt1-PgS2398-3/htm",
+        "zipLink": "https://api.govinfo.gov/packages/CREC-2021-05-10/zip",
+        "modsLink": "https://api.govinfo.gov/packages/CREC-2021-05-10/granules/CREC-2021-05-10-pt1-PgS2398-3/mods",
+        "pdfLink": "https://api.govinfo.gov/packages/CREC-2021-05-10/granules/CREC-2021-05-10-pt1-PgS2398-3/pdf"
+      },
+      "relatedLink": null,
+      "resultLink": "https://api.govinfo.gov/packages/CREC-2021-05-10/granules/CREC-2021-05-10-pt1-PgS2398-3/summary"
+    },
+    {
+      "title": "Anniversary of January 6 (Executive Session)",
+      "packageId": "CREC-2022-01-06",
+      "granuleId": "CREC-2022-01-06-pt1-PgS55-8",
+      "lastModified": "2025-10-08T06:32:22Z",
+      "governmentAuthor": [
+        "Congress"
+      ],
+      "dateIssued": "2022-01-06",
+      "collectionCode": "CREC",
+      "dateIngested": "2022-01-07",
+      "download": {
+        "premisLink": "https://api.govinfo.gov/packages/CREC-2022-01-06/premis",
+        "txtLink": "https://api.govinfo.gov/packages/CREC-2022-01-06/granules/CREC-2022-01-06-pt1-PgS55-8/htm",
+        "zipLink": "https://api.govinfo.gov/packages/CREC-2022-01-06/zip",
+        "modsLink": "https://api.govinfo.gov/packages/CREC-2022-01-06/granules/CREC-2022-01-06-pt1-PgS55-8/mods",
+        "pdfLink": "https://api.govinfo.gov/packages/CREC-2022-01-06/granules/CREC-2022-01-06-pt1-PgS55-8/pdf"
+      },
+      "relatedLink": null,
+      "resultLink": "https://api.govinfo.gov/packages/CREC-2022-01-06/granules/CREC-2022-01-06-pt1-PgS55-8/summary"
+    }
+  ]
+}
